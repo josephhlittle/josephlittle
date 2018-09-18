@@ -32,3 +32,15 @@ body {
 a:visted {
   color: Blue
 }
+
+.name Y{
+  color: yellow;
+}
+
+.name B{
+  color: blue;
+}
+
+.name G{
+  color: grey;
+}
