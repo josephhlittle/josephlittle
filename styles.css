@@ -44,3 +44,8 @@ a:visted {
 .name G{
   color: grey;
 }
+div{
+  height: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+}
