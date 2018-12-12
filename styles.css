@@ -10,24 +10,10 @@ body {
 .navbar li{
   display: inline;
   background-image: url("https://goo.gl/images/7pRdb");
-
-}
-.login {
-  float: right;
-}
-
-.login a {
-  cursor: pointer;
-  margin-right:30px;
-  padding: 8px 18px;
-  border: 1px solid #204156;
-  position: relative;
-  border-color: #9774e3;
-  border-width: 5px;
-}
-.login a:active {
-  top: 5px;
-  color:#9774e3;
+  float: inherit;
+  display: block;
+  width: 600px;
+  text-rendering: geometricPrecision;
 }
 a:visted {
   color: Blue
@@ -43,4 +29,48 @@ a:visted {
 
 .name G{
   color: grey;
+}
+li a:hover {
+  color: White;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: Yellow;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #9774e3;
+}
+.active {
+  background-color: #4CAF50;
+}
+div {
+  text-align: justify;
+}
+h1 {
+  text-shadow: 3px 2px White;
+}
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 28px;
+  font-style: oblique;
+}
+h4 {
+  font-size: 32px;
+  font-weight: bolder;
 }
